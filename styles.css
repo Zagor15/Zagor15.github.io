@@ -30,8 +30,9 @@ nav a {
 
 /* Styles for the main content section */
 section {
+    background-color: red;
     padding: 20px;
-    background-color: #ff0000;
+    
 }
 
 /* Styles for the footer section */
