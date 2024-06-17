@@ -31,7 +31,7 @@ nav a {
 /* Styles for the main content section */
 section {
     padding: 20px;
-    color: red;
+    background-color: red;
 }
 
 /* Styles for the footer section */
