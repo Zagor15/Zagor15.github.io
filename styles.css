@@ -1,0 +1,45 @@
+/* General styles for the entire page */
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #01579b; /* Dark blue text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header section */
+header {
+    background-color: #0288d1; /* Blue header background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the navigation bar */
+nav {
+    background-color: #0277bd; /* Slightly darker blue for navigation */
+    padding: 10px;
+}
+
+/* Styles for the navigation links */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Styles for the main content section */
+section {
+    padding: 20px;
+}
+
+/* Styles for the footer section */
+footer {
+    background-color: #0288d1; /* Blue footer background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
