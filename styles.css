@@ -33,6 +33,9 @@ section {
     padding: 20px;  
 }
 
+.center-text {
+    text-align: center;
+}
 
 /* Styles for the footer section */
 footer {
