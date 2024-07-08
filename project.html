@@ -1,12 +1,28 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagor 15 website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="loadHTML.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      loadHTML('header.html', 'header');
+      loadHTML('footer.html', 'footer');
+    });
+  </script>
+</head>
+<body> 
+    <div id="header"></div>
 
-{% block body %}
-
+    
     <section>
         <h2>Projects</h2>
         <p>Here are my projects</p>
     </section>
     
-{% endblock %}
-
-
+    
+    <div id="footer"></div>
+</body>
+</html>
