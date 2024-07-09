@@ -70,4 +70,17 @@ text-align: center;
 .container {
 text-align: center;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#cardImage {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the height as needed */
+    height: auto;
+}
         
