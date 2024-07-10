@@ -47,8 +47,11 @@ p {
 .image-link img {
     width: 300px; /* Set the desired width */
     height: auto; /* Maintain aspect ratio */
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Styles for the footer section */
