@@ -44,14 +44,17 @@ p {
     margin-bottom: 15px; /* Space between paragraphs */
 }
 
-.image-link img {
-    width: 300px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+.image-link {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.image-link img {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Styles for the footer section */
