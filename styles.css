@@ -151,8 +151,8 @@ section2 {
 }
 
 #submit {
-    align-self: flex-end;
-    margin-top: 10px;
+    align-self: center;
+    margin-top: 5px;
     padding: 10px 20px;
     background: #28a745;
     color: white;
