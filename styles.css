@@ -187,3 +187,31 @@ section2 {
     margin-top: 20px;
     font-size: 18px;
 }
+
+/* blog style */
+
+#blog {
+    padding: 20px;
+}
+
+#posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.post h3 {
+    margin-top: 0;
+}
