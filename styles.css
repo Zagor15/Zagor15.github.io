@@ -44,6 +44,14 @@ p {
     margin-bottom: 15px; /* Space between paragraphs */
 }
 
+
+.image-container-project {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust gap as needed */
+    margin-top: 20px;
+}
+
 .image-link img {
     width: 200px; /* Set a consistent width */
     height: auto; /* Maintain aspect ratio */
