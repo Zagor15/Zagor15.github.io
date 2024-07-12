@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <script src="loadHTML.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      loadHTML('header.html', 'header');
+      loadHTML('footer.html', 'footer');
+    });
+  </script>
+    <div id="header"></div>  
+    <section>
+        <section id="blog">
+        <h2>Latest Posts</h2>
+        <div id="posts-container"></div>
+    </section>
+   <script src="js/blog.js"></script>
+    <div id="footer"></div>
+</body> 
+</html>
