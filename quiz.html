@@ -11,17 +11,17 @@
     <div id="header"></div>  
     <section2>
         <div class="quiz-container" id="quiz">
-        <div id="question" class="question"></div>
-        <div class="answers">
-            <button class="answer" id="a" onclick="selectAnswer('a')"></button>
-            <button class="answer" id="b" onclick="selectAnswer('b')"></button>
-            <button class="answer" id="c" onclick="selectAnswer('c')"></button>
-            <button class="answer" id="d" onclick="selectAnswer('d')"></button>
+            <div id="question" class="question"></div>
+            <div class="answers">
+                <button class="answer" id="a" onclick="selectAnswer('a')"></button>
+                <button class="answer" id="b" onclick="selectAnswer('b')"></button>
+                <button class="answer" id="c" onclick="selectAnswer('c')"></button>
+                <button class="answer" id="d" onclick="selectAnswer('d')"></button>
+            </div>
+            <button id="submit" onclick="submitQuiz()">Submit</button>
         </div>
-    </div>
-    <button id="submit" onclick="submitQuiz()">Submit</button>
-    <div id="result" class="result"></div>
-    <script src="quiz.js"></script>
+        <div id="result" class="result"></div>
+        <script src="quiz.js"></script>
     </section2>
    
     <div id="footer"></div>
