@@ -38,6 +38,11 @@ section {
     text-align: center;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
+
 p {
     margin-right: 100px;
     margin-left: 100px;
