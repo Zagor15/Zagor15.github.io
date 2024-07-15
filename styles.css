@@ -57,12 +57,12 @@ p {
 
 .image-container-project {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px; /* Adjust gap as needed */
-    margin-top: 20px;
-    margin-left: 100px;
+    justify-content: center; 
+    align-items: center; 
     flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .image-link {
