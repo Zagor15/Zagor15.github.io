@@ -6,12 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
             content: "This is the content of my first blog post. I am excited to start this journey!",
             image: "images/blog1.jpg"
         },
-        {
-            title: "Another Interesting Post",
-            date: "July 11, 2024",
-            content: "Here is some more interesting content for my second post. Stay tuned for more updates!",
-            image: "images/blog1.jpg"
-        }
     ];
 
     const postsContainer = document.getElementById('posts-container');
