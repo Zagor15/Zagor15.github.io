@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <script src="loadHTML.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      loadHTML('header.html', 'header');
+      loadHTML('footer.html', 'footer');
+    });
+  </script>
+    <div id="header"></div>  
+    <section2>
+    <textarea id="userInput" placeholder="Enter your text here..."></textarea>
+    <button onclick="analyzeSentiment()">Analyze</button>
+    <div id="result"></div>
+        <script src="sentiment.js"></script>
+    </section2>
+   
+    <div id="footer"></div>
+</body> 
+</html>
