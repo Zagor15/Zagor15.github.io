@@ -10,20 +10,21 @@
   </script>
     <div id="header"></div>  
     <section2>
-    <textarea id="textInput" rows="4" cols="50" placeholder="Enter text here..."></textarea><br>
-    <button onclick="analyzeSentiment()">Analyze</button>
-    <p id="result"></p>
+        <p> A sentiment Analyzer</p>
+        <textarea id="textInput" rows="4" cols="50" placeholder="Enter an english text here..."></textarea><br>
+        <button onclick="analyzeSentiment()">Analyze</button>
+        <p id="result"></p>
 
-    <script src="https://cdn.jsdelivr.net/npm/sentiment@5.0.3/build/sentiment.min.js"></script>
-    <script>
-        function analyzeSentiment() {
-            const text = document.getElementById('textInput').value;
-            const sentiment = new Sentiment();
-            const result = sentiment.analyze(text);
-            document.getElementById('result').innerText = 
-                `Score: ${result.score}, Comparative: ${result.comparative}`;
-        }
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/sentiment@5.0.3/build/sentiment.min.js"></script>
+        <script>
+            function analyzeSentiment() {
+                const text = document.getElementById('textInput').value;
+                const sentiment = new Sentiment();
+                const result = sentiment.analyze(text);
+                document.getElementById('result').innerText = 
+                    `Score: ${result.score}, Comparative: ${result.comparative}`;
+            }
+        </script>
     </section2>
    
     <div id="footer"></div>
